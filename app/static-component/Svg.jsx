@@ -1,5 +1,7 @@
 import React from "react";
-import { ReactComponent as WaveSvg } from "../images/wave1.svg";
+import svg from "../images/wave1.svg";
+import Image from "next/image";
+
 export default function Svg() {
-  return <WaveSvg />;
+  return <Image src={svg} alt="wave" className="w-full object-cover"></Image>;
 }

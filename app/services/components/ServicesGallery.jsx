@@ -8,6 +8,7 @@ export default function ServicesGallery(props) {
         className="w-full h-full object-cover"
         width={"auto"}
         height={"auto"}
+        alt="services Image"
         Priority
       />
     </div>

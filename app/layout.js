@@ -1,6 +1,7 @@
 import "./globals.css";
 import Navbar from "./static-component/Navbar/Navbar";
 import Footer from "./static-component/Footer/Footer";
+import Svg from "./static-component/Svg";
 
 export const metadata = {
   title: "Connect Events",
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Svg />
         <Footer />
       </body>
     </html>
