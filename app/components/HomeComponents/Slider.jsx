@@ -1,6 +1,6 @@
-"use client"
+"use client";
 import React from "react";
-import  {Carousel}  from "antd";
+import { Carousel } from "antd";
 import Image from "next/image";
 import slider1 from "@/app/images/slider-1.jpeg";
 import slider2 from "@/app/images/slider-2.jpeg";
@@ -14,7 +14,7 @@ export default function Slider() {
       autoplaySpeed={2000}
       dots
       dotPosition="bottom"
-      className="h-[90vh]"
+      className="h-[90vh] mb-40 md:mb-0"
     >
       <div>
         <Image

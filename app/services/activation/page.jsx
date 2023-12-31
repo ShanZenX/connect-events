@@ -3,6 +3,8 @@ import Heading from "@/app/components/Heading";
 import React from "react";
 import ServicesGallery from "../components/ServicesGallery";
 import { Image } from "antd";
+import event from "@/app/images/event-services.jpeg";
+import ServicesModule from "../components/ServicesModule";
 
 export default function Activation() {
   const eventImg = [
@@ -45,9 +47,15 @@ export default function Activation() {
   ];
   return (
     <div className="w-full flex flex-wrap flex-col justify-center items-center">
-      <Heading title={"Activation Images"} />
-
-      <div className="flex flex-wrap justify-evenly gap-10 pb-5 pt-4  w-11/12">
+      <Heading title={"Activation"} />
+      <ServicesModule
+        title={"Activation"}
+        des={
+          "Activate your brand with Connect Events! Our activation services are all about making your brand come to life. From interactive campaigns to strategic promotions, we know how to engage your audience. Let us bring energy and excitement to your brand. Connect with us for activation services that create buzz and leave a lasting impact."
+        }
+        img={event}
+      />
+      <div className="flex flex-wrap justify-evenly gap-10 pb-5 pt-4  w-11/12 mt-20">
         <Image.PreviewGroup>
           {eventImg.map((image) => (
             <ServicesGallery key={image.id} img={image.link} />

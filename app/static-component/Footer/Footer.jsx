@@ -1,8 +1,6 @@
-import Link from "next/link";
 import React from "react";
 import logo from "@/app/images/Connect-events.png";
 import Image from "next/image";
-import { CiLocationOn } from "react-icons/ci";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { LuPhone } from "react-icons/lu";
 import { IoLocationOutline } from "react-icons/io5";

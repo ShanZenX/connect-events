@@ -1,4 +1,3 @@
-// Import React and React hooks
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
@@ -6,19 +5,12 @@ import Link from "next/link";
 import { FaBars } from "react-icons/fa";
 import logo from "@/app/images/Connect-events.png";
 
-// NavBar component
 const NavBar = () => {
   const links = [
     {
       id: 1,
       name: "Home",
       link: "/",
-    },
-
-    {
-      id: 2,
-      name: "Services",
-      link: "../services",
     },
     {
       id: 3,
@@ -47,7 +39,14 @@ const NavBar = () => {
       <div className="flex justify-between items-center h-[60px] w-11/12">
         <div className="text-white font-bold">
           <Link href="/">
-            <Image src={logo} height={60} width={180} priority alt="logo" />
+            <Image
+              src={logo}
+              priority
+              alt="logo"
+              width={"auto"}
+              height={"auto"}
+              className="w-[190px] h-full"
+            />
           </Link>
         </div>
         <div className="hidden md:flex space-x-4">
