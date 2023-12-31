@@ -1,7 +1,6 @@
 import "./globals.css";
 import Navbar from "./static-component/Navbar/Navbar";
 import Footer from "./static-component/Footer/Footer";
-import Svg from "./static-component/svg";
 
 export const metadata = {
   title: "Connect Events",
