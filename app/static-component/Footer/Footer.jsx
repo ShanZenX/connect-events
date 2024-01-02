@@ -10,7 +10,13 @@ export default function Footer() {
     <div className="w-100 md:h-[240px] bg-black  text-white ">
       <div className="flex  flex-wrap w-11/12 ">
         <div className="md:w-3/6 flex justify-center items-center h-[240px]">
-          <Image src={logo} height="auto" width={300} alt="logo"></Image>
+          <Image
+            src={logo}
+            height="auto"
+            width={300}
+            alt="logo"
+            priority
+          ></Image>
         </div>
         <div className="md:w-3/6 flex flex-col justify-evenly items-start h-[240px] text-sm md:pl-[80px] ">
           <div className=" flex w-10/12">
@@ -24,12 +30,14 @@ export default function Footer() {
           <div className=" flex w-10/12">
             {" "}
             <LuPhone className=" text-2xl mr-5 self-start" />
-            <p>+91 9710014422</p>
+            <a href="tel:+91 9710014422">+91 9710014422</a>
           </div>{" "}
           <div className=" flex w-10/12">
             {" "}
             <MdOutlineMailOutline className=" text-2xl mr-5 self-start" />
-            <p>connectevent.ind@gmail.com</p>
+            <a href="mailto:connectevent.ind@gmail.com">
+              connectevent.ind@gmail.com
+            </a>{" "}
           </div>
         </div>
       </div>

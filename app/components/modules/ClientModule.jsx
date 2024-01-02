@@ -7,7 +7,7 @@ export default function ClientModule(props) {
       src={props.image}
       width={100}
       height={100}
-      className=" w-[120px] sm:w-[200px] sm:h-[100px] m-7"
+      className=" w-[120px] sm:w-[250px] sm:h-[100px] m-7"
       quality={100}
       alt="client-img"
     ></Image>

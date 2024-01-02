@@ -4,7 +4,7 @@ import ServicesGallery from "../components/ServicesGallery";
 import Heading from "@/app/components/Heading";
 import { Image } from "antd";
 import ServicesModule from "../components/ServicesModule";
-import event from "@/app/images/event-services.jpeg";
+import branding from "@/app/images/services-img/branding-services.jpeg";
 
 export default function Branding() {
   const eventImg = [
@@ -54,7 +54,7 @@ export default function Branding() {
         des={
           "Activate your brand with Connect Events! Our activation services are all about making your brand come to life. From interactive campaigns to strategic promotions, we know how to engage your audience. Let us bring energy and excitement to your brand. Connect with us for activation services that create buzz and leave a lasting impact"
         }
-        img={event}
+        img={branding}
       />
 
       <div className="flex flex-wrap justify-evenly gap-10 pb-5 pt-4  w-11/12 mt-20">
