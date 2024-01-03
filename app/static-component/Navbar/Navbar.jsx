@@ -19,14 +19,15 @@ const NavBar = () => {
     },
     {
       id: 4,
-      name: "Branding",
-      link: "../services/branding",
-    },
-    {
-      id: 5,
       name: "Activation",
       link: "../services/activation",
     },
+    {
+      id: 5,
+      name: "Branding",
+      link: "../services/branding",
+    },
+  
     {
       id: 6,
       name: "Contact",

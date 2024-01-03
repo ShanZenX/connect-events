@@ -6,7 +6,7 @@ import { Image } from "antd";
 import activation from "@/app/images/services-img/activation-services.jpeg";
 import ServicesModule from "../components/ServicesModule";
 
-import img1 from "@/app/images/activation-img/activation-img-1.jpeg";
+import img1 from "@/app/images/activation-img/activation-img-1.jpg";
 import img2 from "@/app/images/activation-img/activation-img-2.jpeg";
 import img3 from "@/app/images/activation-img/activation-img-3.jpeg";
 import img4 from "@/app/images/activation-img/activation-img-4.jpeg";
@@ -33,6 +33,9 @@ import img24 from "@/app/images/activation-img/activation-img-24.jpg";
 import img25 from "@/app/images/activation-img/activation-img-25.jpg";
 import img26 from "@/app/images/activation-img/activation-img-26.jpg";
 import img27 from "@/app/images/activation-img/activation-img-27.jpg";
+import img28 from "@/app/images/activation-img/activation-img-28.jpeg";
+import img29 from "@/app/images/activation-img/activation-img-29.jpg";
+import img30 from "@/app/images/activation-img/activation-img-30.jpg";
 
 
 export default function Activation() {
@@ -141,6 +144,16 @@ export default function Activation() {
     }, {
       id: 27,
       link: img27,
+    },
+    {
+      id: 28,
+      link: img28,
+    },{
+      id: 29,
+      link: img29,
+    },{
+      id: 30,
+      link: img30,
     },
   ];
   return (

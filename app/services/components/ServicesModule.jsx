@@ -5,7 +5,7 @@ const railway = Raleway({ subsets: ["latin"], weight: ["700"] });
 
 export default function ServicesModule(props) {
   return (
-    <div className="w-10/12 bg-[#efefef] md:h-[300px]   flex border-black border rounded flex-wrap  hover:shadow-xl transition duration-300 mt-4 mt">
+    <div className="w-10/12 bg-[#efefef] lg::h-[300px]   flex border-black border rounded flex-wrap  hover:shadow-xl transition duration-300 mt-4 mt">
       <div
         className={`md:w-2/5  p-5  justify-evenly items-center text-center  flex flex-col order-2 ${props.order}`}
       >
