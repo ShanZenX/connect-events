@@ -13,6 +13,7 @@ export default function Slider() {
       autoplay
       autoplaySpeed={2000}
       dots
+      effect="fade"
       dotPosition="bottom"
       className="h-[90vh] mb-40 md:mb-0"
     >

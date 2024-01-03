@@ -5,31 +5,38 @@ import event from "@/app/images/services-img/event-services.jpeg";
 import ServicesModule from "../components/ServicesModule";
 import { Image } from "antd";
 
-import img1 from "@/app/images/event-img/event-img-1.jpeg";
+import img1 from "@/app/images/event-img/event-img-8.jpeg";
 import img2 from "@/app/images/event-img/event-img-2.jpeg";
 
 import img3 from "@/app/images/event-img/event-img-3.jpeg";
-import img4 from "@/app/images/event-img/event-img-4.jpeg";
+import img4 from "@/app/images/event-img/event-img-16.jpeg";
 import img5 from "@/app/images/event-img/event-img-5.jpeg";
 import img6 from "@/app/images/event-img/event-img-6.jpeg";
 import img7 from "@/app/images/event-img/event-img-7.jpeg";
-import img8 from "@/app/images/event-img/event-img-8.jpeg";
+import img8 from "@/app/images/event-img/event-img-1.jpeg";
 import img9 from "@/app/images/event-img/event-img-9.jpeg";
 import img10 from "@/app/images/event-img/event-img-10.jpeg";
-import img11 from "@/app/images/event-img/event-img-11.jpeg";
-import img12 from "@/app/images/event-img/event-img-12.jpeg";
+import img11 from "@/app/images/event-img/event-img-21.jpeg";
+import img12 from "@/app/images/event-img/event-img-18.jpeg";
 import img13 from "@/app/images/event-img/event-img-13.jpeg";
 import img14 from "@/app/images/event-img/event-img-14.jpeg";
 import img15 from "@/app/images/event-img/event-img-15.jpeg";
-import img16 from "@/app/images/event-img/event-img-16.jpeg";
+import img16 from "@/app/images/event-img/event-img-4.jpeg";
 import img17 from "@/app/images/event-img/event-img-17.jpeg";
-import img18 from "@/app/images/event-img/event-img-18.jpeg";
+import img18 from "@/app/images/event-img/event-img-12.jpeg";
 import img19 from "@/app/images/event-img/event-img-19.jpeg";
 import img20 from "@/app/images/event-img/event-img-20.jpeg";
-import img21 from "@/app/images/event-img/event-img-21.jpeg";
+import img21 from "@/app/images/event-img/event-img-11.jpeg";
 import img22 from "@/app/images/event-img/event-img-22.jpeg";
 import img23 from "@/app/images/event-img/event-img-23.jpeg";
 import img24 from "@/app/images/event-img/event-img-24.jpeg";
+import img25 from "@/app/images/event-img/event-img-25.jpeg";
+import img26 from "@/app/images/event-img/event-img-26.jpeg";
+import img27 from "@/app/images/event-img/event-img-27.jpeg";
+import img28 from "@/app/images/event-img/event-img-28.jpeg";
+import img29 from "@/app/images/event-img/event-img-29.jpeg";
+import img30 from "@/app/images/event-img/event-img-30.jpeg";
+
 import ServicesGallery from "../components/ServicesGallery";
 
 export default function Event() {
@@ -129,6 +136,26 @@ export default function Event() {
     {
       id: 24,
       link: img24,
+    },
+    {
+      id: 25,
+      link: img25,
+    }, {
+      id: 26,
+      link: img26,
+    }, {
+      id: 27,
+      link: img27,
+    },
+    {
+      id: 28,
+      link: img28,
+    },{
+      id: 29,
+      link: img29,
+    },{
+      id: 30,
+      link: img30,
     },
   ];
   return (

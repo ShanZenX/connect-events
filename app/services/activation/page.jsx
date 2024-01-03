@@ -6,18 +6,34 @@ import { Image } from "antd";
 import activation from "@/app/images/services-img/activation-services.jpeg";
 import ServicesModule from "../components/ServicesModule";
 
-import img1 from "@/app/images/activation-img/activation-img-1.jpeg"
-import img2 from "@/app/images/activation-img/activation-img-2.jpeg"
-import img3 from "@/app/images/activation-img/activation-img-3.jpeg"
-import img4 from "@/app/images/activation-img/activation-img-4.jpeg"
-import img5 from "@/app/images/activation-img/activation-img-5.jpeg"
-import img6 from "@/app/images/activation-img/activation-img-6.jpeg"
-import img7 from "@/app/images/activation-img/activation-img-7.jpeg"
-import img8 from "@/app/images/activation-img/activation-img-8.jpeg"
-import img9 from "@/app/images/activation-img/activation-img-9.jpeg"
-import img10 from "@/app/images/activation-img/activation-img-10.jpeg"
-import img11 from "@/app/images/activation-img/activation-img-11.jpeg"
-import img12 from "@/app/images/activation-img/activation-img-12.jpeg"
+import img1 from "@/app/images/activation-img/activation-img-1.jpeg";
+import img2 from "@/app/images/activation-img/activation-img-2.jpeg";
+import img3 from "@/app/images/activation-img/activation-img-3.jpeg";
+import img4 from "@/app/images/activation-img/activation-img-4.jpeg";
+import img5 from "@/app/images/activation-img/activation-img-5.jpeg";
+import img6 from "@/app/images/activation-img/activation-img-6.jpeg";
+import img7 from "@/app/images/activation-img/activation-img-7.jpeg";
+import img8 from "@/app/images/activation-img/activation-img-8.jpeg";
+import img9 from "@/app/images/activation-img/activation-img-9.jpeg";
+import img10 from "@/app/images/activation-img/activation-img-10.jpeg";
+import img11 from "@/app/images/activation-img/activation-img-11.jpeg";
+import img12 from "@/app/images/activation-img/activation-img-12.jpeg";
+import img13 from "@/app/images/activation-img/activation-img-13.jpeg";
+import img14 from "@/app/images/activation-img/activation-img-14.jpeg";
+import img15 from "@/app/images/activation-img/activation-img-15.jpeg";
+import img16 from "@/app/images/activation-img/activation-img-16.jpeg";
+import img17 from "@/app/images/activation-img/activation-img-17.jpeg";
+import img18 from "@/app/images/activation-img/activation-img-18.jpeg";
+import img19 from "@/app/images/activation-img/activation-img-19.jpeg";
+import img20 from "@/app/images/activation-img/activation-img-20.jpg";
+import img21 from "@/app/images/activation-img/activation-img-21.jpg";
+import img22 from "@/app/images/activation-img/activation-img-22.jpg";
+import img23 from "@/app/images/activation-img/activation-img-23.jpg";
+import img24 from "@/app/images/activation-img/activation-img-24.jpg";
+import img25 from "@/app/images/activation-img/activation-img-25.jpg";
+import img26 from "@/app/images/activation-img/activation-img-26.jpg";
+import img27 from "@/app/images/activation-img/activation-img-27.jpg";
+
 
 export default function Activation() {
   const eventImg = [
@@ -31,7 +47,7 @@ export default function Activation() {
     },
     {
       id: 3,
-      link: img2,
+      link: img3,
     },
     {
       id: 4,
@@ -68,6 +84,63 @@ export default function Activation() {
     {
       id: 12,
       link: img12,
+    }, {
+      id: 13,
+      link: img13,
+    },
+    {
+      id: 14,
+      link: img14,
+    },
+    {
+      id: 15,
+      link: img15,
+    },
+    {
+      id: 16,
+      link: img16,
+    },
+    {
+      id: 17,
+      link: img17,
+    },
+    {
+      id: 18,
+      link: img18,
+    },
+    {
+      id: 19,
+      link: img19,
+    },
+    {
+      id: 20,
+      link: img20,
+    },
+    {
+      id: 21,
+      link: img21,
+    },
+    {
+      id: 22,
+      link: img22,
+    },
+    {
+      id: 23,
+      link: img23,
+    },
+    {
+      id: 24,
+      link: img24,
+    },
+    {
+      id: 25,
+      link: img25,
+    }, {
+      id: 26,
+      link: img26,
+    }, {
+      id: 27,
+      link: img27,
     },
   ];
   return (

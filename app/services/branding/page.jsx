@@ -18,6 +18,25 @@ import img9 from "@/app/images/branding-img/branding-img-9.jpeg"
 import img10 from "@/app/images/branding-img/branding-img-10.jpeg"
 import img11 from "@/app/images/branding-img/branding-img-11.jpeg"
 import img12 from "@/app/images/branding-img/branding-img-12.jpeg"
+import img13 from "@/app/images/branding-img/branding-img-13.jpeg"
+import img14 from "@/app/images/branding-img/branding-img-14.jpeg"
+import img15 from "@/app/images/branding-img/branding-img-15.jpeg"
+import img16 from "@/app/images/branding-img/branding-img-16.jpeg"
+import img17 from "@/app/images/branding-img/branding-img-17.jpeg"
+import img18 from "@/app/images/branding-img/branding-img-18.jpeg"
+import img19 from "@/app/images/branding-img/branding-img-19.jpeg"
+import img20 from "@/app/images/branding-img/branding-img-20.jpeg"
+import img21 from "@/app/images/branding-img/branding-img-21.jpeg"
+import img22 from "@/app/images/branding-img/branding-img-22.jpeg"
+import img23 from "@/app/images/branding-img/branding-img-23.jpeg"
+import img24 from "@/app/images/branding-img/branding-img-24.jpeg"
+import img25 from "@/app/images/branding-img/branding-img-25.jpeg"
+import img26 from "@/app/images/branding-img/branding-img-26.jpeg"
+import img27 from "@/app/images/branding-img/branding-img-27.jpeg"
+import img28 from "@/app/images/branding-img/branding-img-28.jpeg"
+import img29 from "@/app/images/branding-img/branding-img-29.jpeg"
+import img30 from "@/app/images/branding-img/branding-img-30.jpeg"
+
 
 export default function Branding() {
   const eventImg = [
@@ -68,6 +87,75 @@ export default function Branding() {
     {
       id: 12,
       link: img12,
+    },
+    ,
+    {
+      id: 13,
+      link: img13,
+    },
+    {
+      id: 14,
+      link: img14,
+    },
+    {
+      id: 15,
+      link: img15,
+    },
+    {
+      id: 16,
+      link: img16,
+    },
+    {
+      id: 17,
+      link: img17,
+    },
+    {
+      id: 18,
+      link: img18,
+    },
+    {
+      id: 19,
+      link: img19,
+    },
+    {
+      id: 20,
+      link: img20,
+    },
+    {
+      id: 21,
+      link: img21,
+    },
+    {
+      id: 22,
+      link: img22,
+    },
+    {
+      id: 23,
+      link: img23,
+    },
+    {
+      id: 24,
+      link: img24,
+    },
+    {
+      id: 25,
+      link: img25,
+    }, {
+      id: 26,
+      link: img26,
+    }, {
+      id: 27,
+      link: img27,
+    },
+    {
+      id: 28,
+      link: img28,
+    },{
+      id: 29,
+      link: img29,
+    },{
+      id: 30,
+      link: img30,
     },
   ];
   return (
