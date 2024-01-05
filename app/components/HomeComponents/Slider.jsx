@@ -2,9 +2,9 @@
 import React from "react";
 import { Carousel } from "antd";
 import Image from "next/image";
-import slider1 from "@/app/images/slider-1.jpeg";
-import slider2 from "@/app/images/slider-2.jpeg";
-import slider3 from "@/app/images/slider-3.jpeg";
+import slider1 from "@/app/images/slider-1.jpg";
+import slider2 from "@/app/images/slider-2.jpg";
+import slider3 from "@/app/images/slider-3.jpg";
 import slider4 from "@/app/images/slider-4.jpeg";
 
 export default function Slider() {
@@ -24,6 +24,7 @@ export default function Slider() {
           width={"auto"}
           alt="slider-img"
           className="h-[95vh] w-full object-cover"
+          quality={100}
         ></Image>
       </div>
       <div>
@@ -33,6 +34,8 @@ export default function Slider() {
           width={"auto"}
           alt="slider-img"
           className="h-[95vh] w-full object-cover"
+          quality={100}
+
         ></Image>
       </div>
       <div>
@@ -42,6 +45,8 @@ export default function Slider() {
           width={"auto"}
           alt="slider-img"
           className="h-[95vh] w-full object-cover"
+          quality={100}
+
         ></Image>
       </div>
       <div>
@@ -51,6 +56,8 @@ export default function Slider() {
           width={"auto"}
           alt="slider-img"
           className="h-[95vh] w-full object-cover"
+          quality={100}
+
         ></Image>
       </div>
     </Carousel>

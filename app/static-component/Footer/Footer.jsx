@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <div className="w-100 md:h-[240px] bg-black  text-white ">
       <div className="flex  flex-wrap w-11/12 ">
-        <div className="md:w-3/6 flex justify-center items-center h-[240px]">
+        <div className="md:w-3/6 w-full flex justify-center items-center h-[240px]">
           <Image
             src={logo}
             height="auto"
@@ -18,10 +18,10 @@ export default function Footer() {
             priority
           ></Image>
         </div>
-        <div className="md:w-3/6 flex flex-col justify-evenly items-start h-[240px] text-sm md:pl-[80px] ">
+        <div className="md:w-3/6 w-full pl-10 flex flex-col justify-evenly md:items-start h-[240px] text-sm md:pl-[80px] items-center  ">
           <div className=" flex w-10/12">
             {" "}
-            <IoLocationOutline className=" text-4xl mr-5 -ml-1 self-start " />
+            <IoLocationOutline className=" md:text-4xl text-5xl mr-5 -ml-1 self-start " />
             <p>
               Flat No. 4, Ground Floor, Door, 4, Thanikachalam Rd, T. Nagar,
               Chennai, Tamil Nadu 600017
