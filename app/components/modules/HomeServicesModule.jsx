@@ -9,7 +9,7 @@ export default function HomeServicesModule(props) {
       <Link href={props.to} className="flex flex-col justify-evenly h-96">
         <Image src={props.logo} alt={props.alt} className="" />
         <div className="-mt-[50px]">
-          <h1 className="font-Poppins font-semibold p-2 text-2xl text-orange-400">
+          <h1 className="font-Poppins font-semibold p-2 text-2xl text-orange-400 uppercase">
             {props.title}
           </h1>
           <p className="font-poppins font-light">{props.des}</p>

@@ -15,7 +15,7 @@ export default function Slider() {
       dots
       effect="fade"
       dotPosition="bottom"
-      className="h-[90vh] mb-40 md:mb-0"
+      className="md:h-[90vh] h-[40vh] mb-40 md:mb-0"
     >
       <div>
         <Image
@@ -23,7 +23,7 @@ export default function Slider() {
           height={"auto"}
           width={"auto"}
           alt="slider-img"
-          className="h-[95vh] w-full object-cover"
+          className="md:h-[95vh] h-[40vh] w-full object-cover"
           quality={100}
         ></Image>
       </div>
@@ -33,7 +33,7 @@ export default function Slider() {
           height={"auto"}
           width={"auto"}
           alt="slider-img"
-          className="h-[95vh] w-full object-cover"
+          className="md:h-[95vh] h-[40vh] w-full object-cover"
           quality={100}
 
         ></Image>
@@ -44,7 +44,7 @@ export default function Slider() {
           height={"auto"}
           width={"auto"}
           alt="slider-img"
-          className="h-[95vh] w-full object-cover"
+          className="md:h-[95vh] h-[40vh] w-full object-cover"
           quality={100}
 
         ></Image>
@@ -55,7 +55,7 @@ export default function Slider() {
           height={"auto"}
           width={"auto"}
           alt="slider-img"
-          className="h-[95vh] w-full object-cover"
+          className="md:h-[95vh] h-[40vh] w-full object-cover"
           quality={100}
 
         ></Image>

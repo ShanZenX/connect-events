@@ -1,45 +1,47 @@
 import React from "react";
-import logo from "@/app/images/Connect-events.png";
-import Image from "next/image";
-import { MdOutlineMailOutline } from "react-icons/md";
-import { LuPhone } from "react-icons/lu";
-import { IoLocationOutline } from "react-icons/io5";
+import Link from "next/link";
+import { FaLinkedin } from "react-icons/fa";
+import { Raleway } from "next/font/google";
+const titleFont = Raleway({
+  subsets: ["latin"],
+  weight: "700",
+});
 
 export default function Footer() {
   return (
-    <div className="w-100 md:h-[240px] bg-black  text-white ">
-      <div className="flex  flex-wrap w-11/12 ">
-        <div className="md:w-3/6 w-full flex justify-center items-center h-[240px]">
-          <Image
-            src={logo}
-            height="auto"
-            width={300}
-            alt="logo"
-            priority
-          ></Image>
-        </div>
-        <div className="md:w-3/6 w-full pl-10 flex flex-col justify-evenly md:items-start h-[240px] text-sm md:pl-[80px] items-center  ">
-          <div className=" flex w-10/12">
-            {" "}
-            <IoLocationOutline className=" md:text-4xl text-5xl mr-5 -ml-1 self-start " />
-            <p>
+    <div className={`flex w-full h-auto bg-black px-36 py-10  ${titleFont.className}`}>
+      <div className="w-1/2 flex ">
+        {" "}
+        <div className="w-3/6 ml-10 gap-5 flex flex-col">
+          <p className="text-gray-100 flex flex-col gap-[4px]">
+            <span className="opacity-70">Address:</span>
+            <span>
               Flat No. 4, Ground Floor, Door, 4, Thanikachalam Rd, T. Nagar,
-              Chennai, Tamil Nadu 600017
-            </p>
-          </div>
-          <div className=" flex w-10/12">
-            {" "}
-            <LuPhone className=" text-2xl mr-5 self-start" />
-            <a href="tel:+91 9710014422">+91 9710014422</a>
-          </div>{" "}
-          <div className=" flex w-10/12">
-            {" "}
-            <MdOutlineMailOutline className=" text-2xl mr-5 self-start" />
-            <a href="mailto:connectevent.ind@gmail.com">
-              connectevent.ind@gmail.com
-            </a>{" "}
-          </div>
+              Chennai,<br></br> Tamil Nadu 600017
+            </span>
+          </p>
+          <p className="text-gray-100 flex flex-col gap-[4px]">
+            <span className="opacity-70">Contact:</span>
+            <a href="tel:9710014422" className="font-sans"> +91 9710014422</a>
+          </p>
+          <p className="text-gray-100 flex flex-col gap-[4px]">
+            <span className="opacity-70">Email:</span>
+            <a href="mailto:connectevent.ind@gmail.com"> connectevent.ind@gmail.com</a>{" "}
+          </p>
+          <Link href={"https://www.linkedin.com/in/connectevents/"}>
+            <FaLinkedin className="w-[25px] h-[25px] text-white" />
+          </Link>
         </div>
+      </div>
+      <div className="w-1/2">
+        {" "}
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9478784531875!2d80.23703037519168!3d13.038989687282669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52664d427914c3%3A0x3bc601264f254868!2sCONNECT%20EVENTS!5e0!3m2!1sen!2sin!4v1705419096907!5m2!1sen!2sin"
+          allowFullScreen=""
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+          className="h-full w-full"
+        ></iframe>
       </div>
     </div>
   );

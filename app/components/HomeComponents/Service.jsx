@@ -1,7 +1,7 @@
 import React from "react";
 import HomeServicesModule from "@/app/components/modules/HomeServicesModule";
-import event from "@/app/images/event.jpg";
-import activation from "@/app/images/activation.jpg";
+import event from "@/app/images/events.png";
+import activation from "@/app/images/activation.png";
 import branding from "@/app/images/branding.jpg";
 
 import Heading from "../Heading";
