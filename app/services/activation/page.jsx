@@ -36,126 +36,56 @@ import img27 from "@/app/images/activation-img/activation-img-27.jpg";
 import img28 from "@/app/images/activation-img/activation-img-28.jpeg";
 import img29 from "@/app/images/activation-img/activation-img-29.jpg";
 import img30 from "@/app/images/activation-img/activation-img-30.jpg";
-
+import img31 from "@/app/images/activation-img/activation-img-31.png";
+import img32 from "@/app/images/activation-img/activation-img-32.jpg";
+import img33 from "@/app/images/activation-img/activation-img-33.jpeg";
+import img34 from "@/app/images/activation-img/activation-img-34.jpeg";
+import img35 from "@/app/images/activation-img/activation-img-35.jpeg";
+import img36 from "@/app/images/activation-img/activation-img-36.jpeg";
+import img37 from "@/app/images/activation-img/activation-img-37.jpeg";
 
 export default function Activation() {
   const eventImg = [
-    {
-      id: 1,
-      link: img1,
-    },
-    {
-      id: 2,
-      link: img2,
-    },
-    {
-      id: 3,
-      link: img3,
-    },
-    {
-      id: 4,
-      link: img4,
-    },
-    {
-      id: 5,
-      link: img5,
-    },
-    {
-      id: 6,
-      link: img6,
-    },
-    {
-      id: 7,
-      link: img7,
-    },
-    {
-      id: 8,
-      link: img8,
-    },
-    {
-      id: 9,
-      link: img9,
-    },
-    {
-      id: 10,
-      link: img10,
-    },
-    {
-      id: 11,
-      link: img11,
-    },
-    {
-      id: 12,
-      link: img12,
-    }, {
-      id: 13,
-      link: img13,
-    },
-    {
-      id: 14,
-      link: img14,
-    },
-    {
-      id: 15,
-      link: img15,
-    },
-    {
-      id: 16,
-      link: img16,
-    },
-    {
-      id: 17,
-      link: img17,
-    },
-    {
-      id: 18,
-      link: img18,
-    },
-    {
-      id: 19,
-      link: img19,
-    },
-    {
-      id: 20,
-      link: img20,
-    },
-    {
-      id: 21,
-      link: img21,
-    },
-    {
-      id: 22,
-      link: img22,
-    },
-    {
-      id: 23,
-      link: img23,
-    },
-    {
-      id: 24,
-      link: img24,
-    },
-    {
-      id: 25,
-      link: img25,
-    }, {
-      id: 26,
-      link: img26,
-    }, {
-      id: 27,
-      link: img27,
-    },
-    {
-      id: 28,
-      link: img28,
-    },{
-      id: 29,
-      link: img29,
-    },{
-      id: 30,
-      link: img30,
-    },
+    { id: 31, link: img31 },
+    { id: 32, link: img32 },
+    { id: 33, link: img33 },
+    { id: 34, link: img34 },
+    { id: 35, link: img35 },
+    { id: 36, link: img36 },
+    { id: 37, link: img37 },
+    { id: 1, link: img1 },
+    { id: 2, link: img2 },
+    { id: 3, link: img3 },
+    { id: 4, link: img4 },
+    { id: 5, link: img5 },
+    { id: 6, link: img6 },
+    { id: 7, link: img7 },
+    { id: 8, link: img8 },
+    { id: 9, link: img9 },
+    { id: 10, link: img10 },
+    { id: 11, link: img11 },
+    { id: 12, link: img12 },
+    { id: 13, link: img13 },
+    { id: 14, link: img14 },
+    { id: 15, link: img15 },
+    { id: 16, link: img16 },
+    { id: 17, link: img17 },
+    { id: 18, link: img18 },
+    { id: 19, link: img19 },
+    { id: 20, link: img20 },
+    { id: 21, link: img21 },
+    { id: 22, link: img22 },
+    { id: 23, link: img23 },
+    { id: 24, link: img24 },
+    { id: 25, link: img25 },
+    { id: 26, link: img26 },
+    { id: 27, link: img27 },
+    { id: 28, link: img28 },
+    { id: 29, link: img29 },
+    { id: 30, link: img30 },
+   
   ];
+
   return (
     <div className="w-full flex flex-wrap flex-col justify-center items-center">
       <Heading title={"Activation"} />
@@ -166,7 +96,7 @@ export default function Activation() {
         }
         img={activation}
       />
-      <div className="flex flex-wrap justify-evenly gap-10 pb-5 pt-4  w-11/12 mt-20">
+      <div className="flex flex-wrap justify-evenly gap-10 pb-5 pt-4 w-11/12 mt-20">
         <Image.PreviewGroup>
           {eventImg.map((image) => (
             <ServicesGallery key={image.id} img={image.link.src} />

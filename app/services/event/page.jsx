@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import Heading from "@/app/components/Heading";
 import event from "@/app/images/services-img/event-services.jpeg";
@@ -37,10 +37,51 @@ import img28 from "@/app/images/event-img/event-img-28.jpeg";
 import img29 from "@/app/images/event-img/event-img-29.jpeg";
 import img30 from "@/app/images/event-img/event-img-30.jpeg";
 
+// new-images
+// New image imports
+import img31 from "@/app/images/event-img/event-img-31.jpg";
+import img32 from "@/app/images/event-img/event-img-32.jpg";
+import img33 from "@/app/images/event-img/event-img-33.jpg";
+import img34 from "@/app/images/event-img/event-img-34.jpg";
+import img35 from "@/app/images/event-img/event-img-35.jpg";
+import img36 from "@/app/images/event-img/event-img-36.jpg";
+import img37 from "@/app/images/event-img/event-img-37.jpg";
+import img38 from "@/app/images/event-img/event-img-38.jpg";
+import img39 from "@/app/images/event-img/event-img-39.jpg";
+import img40 from "@/app/images/event-img/event-img-40.jpg";
+import img41 from "@/app/images/event-img/event-img-41.jpg";
+import img42 from "@/app/images/event-img/event-img-42.jpg";
+import img43 from "@/app/images/event-img/event-img-43.jpg";
+import img44 from "@/app/images/event-img/event-img-44.jpg";
+import img45 from "@/app/images/event-img/event-img-45.jpg";
+import img46 from "@/app/images/event-img/event-img-46.jpg";
+import img47 from "@/app/images/event-img/event-img-47.jpg";
+import img48 from "@/app/images/event-img/event-img-48.jpg";
+import img49 from "@/app/images/event-img/event-img-49.jpeg";
+
 import ServicesGallery from "../components/ServicesGallery";
 
 export default function Event() {
   const eventImg = [
+    { id: 31, link: img31 },
+    { id: 32, link: img32 },
+    { id: 33, link: img33 },
+    { id: 34, link: img34 },
+    { id: 35, link: img35 },
+    { id: 36, link: img36 },
+    { id: 37, link: img37 },
+    { id: 38, link: img38 },
+    { id: 39, link: img39 },
+    { id: 40, link: img40 },
+    { id: 41, link: img41 },
+    { id: 42, link: img42 },
+    { id: 43, link: img43 },
+    { id: 44, link: img44 },
+    { id: 45, link: img45 },
+    { id: 46, link: img46 },
+    { id: 47, link: img47 },
+    { id: 48, link: img48 },
+    { id: 49, link: img49 },
     {
       id: 1,
       link: img1,
@@ -140,23 +181,28 @@ export default function Event() {
     {
       id: 25,
       link: img25,
-    }, {
+    },
+    {
       id: 26,
       link: img26,
-    }, {
+    },
+    {
       id: 27,
       link: img27,
     },
     {
       id: 28,
       link: img28,
-    },{
+    },
+    {
       id: 29,
       link: img29,
-    },{
+    },
+    {
       id: 30,
       link: img30,
     },
+    
   ];
   return (
     <div className="w-full flex flex-wrap flex-col justify-center items-center">
@@ -170,8 +216,10 @@ export default function Event() {
       />
 
       <div className="flex flex-wrap justify-evenly gap-10 pb-5 pt-4 mt-20 w-11/12">
-      <Image.PreviewGroup>
-        {eventImg.map(image =>(<ServicesGallery img={image.link.src} key={image.id}/>))}
+        <Image.PreviewGroup>
+          {eventImg.map((image) => (
+            <ServicesGallery img={image.link.src} key={image.id} />
+          ))}
         </Image.PreviewGroup>
       </div>
     </div>
